@@ -1,0 +1,7 @@
+test:
+  pre:
+     - echo "Before tests"
+  override:
+    - echo "Tests placeholder"
+  post:
+    - echo "After tests"
