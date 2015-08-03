@@ -1,6 +1,7 @@
 test:
   pre:
      - echo "Before tests"
+     - echo "${API_TOKEN}"
   override:
     - echo "Tests placeholder"
   post:
